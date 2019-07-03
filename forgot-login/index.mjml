@@ -1,0 +1,123 @@
+<mjml>
+    <mj-head>
+        <mj-font name="Oswald" href="https://fonts.googleapis.com/css?family=Oswald" />
+        <mj-font name="Montserrat" href="https://fonts.googleapis.com/css?family=Montserrat" />
+        <mj-attributes>
+            <mj-class
+                name="heading"
+                font-family="Oswald"
+                font-size="30px"
+                font-weight="bold"
+                text-transform="uppercase"
+            />
+            <mj-class
+                name="subheading"
+                font-family="script"
+                font-size="20px"
+                font-weight="bold"
+                padding-top="0"
+                padding-bottom="30px"
+                color="orange"
+            />
+            <mj-class
+                name="social-icon"
+                border-radius="8675309px"
+                background-color="grey"
+            />
+            <mj-class
+                name="contact-info"
+                color="#AAA"
+            />
+            <mj-class
+                name="attribution"
+                color="#666"
+                font-size="10px"
+            />
+            <mj-all
+                font-family="Montserrat"
+                align="center"
+                color="black"
+            />
+        </mj-attributes>
+        <mj-style>
+            .letter-space p {
+                letter-spacing: 0.2em !important;
+            }
+        </mj-style>
+    </mj-head>
+    <mj-body background-color="black">
+        <mj-section>
+            <mj-column>
+                <mj-text color="white">
+                    Starcycle
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="15px" >
+            <mj-column background-color="white" padding-top="20px">
+                <mj-text mj-class="heading">Hey client</mj-text>
+                <mj-text mj-class="subheading">Don't worry. We got you.</mj-text>
+                <mj-text>Here's your StarCycle account information:</mj-text>
+                <mj-text padding-bottom="0"><b>Username:</b> USERNAME</mj-text>
+                <mj-text><b>Password:</b> PASSWORD</mj-text>
+                <mj-text padding="30px" line-height="30px">
+                    If you're still having trouble accessing your account,
+                    feel free to call us, email or let us know the next time
+                    you're in the studio and we'll get to the bottom of it.
+                    <i>See you soon!</i>
+                </mj-text>
+                <mj-text font-weight="bold" padding-bottom="0">
+                    StarCycle STUDIO_NAME
+                </mj-text>
+                <mj-text>
+                    Phone: STUDIO_PHONE
+                </mj-text>
+                <mj-button
+                    background-color="purple"
+                    padding="0"
+                    padding-top="30px"
+                    border-radius="0"
+                    width="100%"
+                    font-weight="bold"
+                    text-transform="uppercase"
+                    color="white"
+                    font-size="20px"
+                    css-class="letter-space"
+                >
+                    Book a Class
+                </mj-button>
+            </mj-column>
+        </mj-section>
+        <mj-section>
+            <mj-column>
+                <mj-social icon-size="30px" mode="horizontal" >
+                    <mj-social-element name="facebook" href="https://mjml.io/" mj-class="social-icon" />
+                    <mj-social-element name="twitter" href="https://mjml.io/" mj-class="social-icon" />
+                    <mj-social-element name="instagram" href="https://mjml.io/" mj-class="social-icon" />
+                    <mj-social-element name="linkedin" href="https://mjml.io/" mj-class="social-icon" />
+                    <mj-social-element href="mailto:info@starcycleride.com" src="path-to-your-icon" mj-class="social-icon" />
+                </mj-social>
+            </mj-column>
+        </mj-section>
+        <mj-section>
+            <mj-column>
+                <mj-text mj-class="contact-info">
+                    <b style="text-transform:uppercase">StarCycle Lake Oswego</b><br>
+                    375 Second Street<br>
+                    Lake Oswego, OR 97212<br>
+                    503.430.7337
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section>
+            <mj-column>
+                <mj-text mj-class="attribution">
+                    Copyright &copy; StarCycle Franchise, LLC.
+                    All rights Reserved.<br>
+                    You received this email because you opted in on our website.
+                    <a href="https://www.starcycleride.com">unsubscribe</a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
