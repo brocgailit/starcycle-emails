@@ -1,4 +1,4 @@
-# StarCycle Emails
+# StarCycle Mandrill Email Templates
 
 Email templates using [MJML](https://mjml.io/download)
 
