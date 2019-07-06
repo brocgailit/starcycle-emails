@@ -18,6 +18,7 @@ To watch changes:
 - [New Registration](./dist/registration)
 
 ## Email Client Market Share (June 2019)
+Emails <s>may</s> appear different in every email client.
 1. Gmail (29%)
 2. iPhone (27%)
 3. Outlook (9%)
