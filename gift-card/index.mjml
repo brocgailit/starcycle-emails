@@ -1,0 +1,59 @@
+<mjml>
+    <mj-head>
+        <mj-include path="../common-head.mjml" />
+    </mj-head>
+    <mj-body background-color="black">
+        <mj-include path="../header.mjml" />
+        <mj-section
+            background-url="https://starcycle-staging.herokuapp.com/assets/img/gift-background.jpg"
+            background-size="cover"
+            background-repeat="no-repeat">
+            <mj-column>
+                <mj-text
+                    mj-class="heading"
+                    color="white"
+                    font-size="40px"
+                    padding-top="150px"
+                    padding-bottom="100px"
+                >
+                    Lucky You!
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="0">
+            <mj-column background-color="white" padding-top="20px">
+                <mj-text mj-class="heading">Hey client</mj-text>
+                <mj-text mj-class="subheading">Thank your lucky stars!</mj-text>
+                <mj-text>GIFTCARDFROM sent you the gift of sweat, is there anything better?!</mj-text>
+                <mj-text padding-bottom="0"><b>Gift Card Message:</b> GIFTCARDMESSAGE</mj-text>
+                <mj-text><b>Gift Card Title:</b> GIFTCARDTITLE</mj-text>
+                <mj-text padding="30px 50px" line-height="30px">
+                    You can print this gift card out or show us the next time you are in the studio.
+                    <i>Let's ride!</i>
+                </mj-text>
+                <mj-text font-weight="bold" padding-bottom="0">
+                    StarCycle STUDIO_NAME
+                </mj-text>
+                <mj-text font-size="11px">
+                    Phone: STUDIO_PHONE
+                </mj-text>
+                <mj-button
+                    href="https://www.starcycleride.com"
+                    background-color="#663399"
+                    padding="0"
+                    padding-top="30px"
+                    border-radius="0"
+                    width="100%"
+                    font-weight="700"
+                    text-transform="uppercase"
+                    color="#ddd5e5"
+                    font-size="24px"
+                    css-class="letter-space purple-gradient"
+                >
+                    Book a Class
+                </mj-button>
+            </mj-column>
+        </mj-section>
+        <mj-include path="../footer.mjml" />
+    </mj-body>
+</mjml>
