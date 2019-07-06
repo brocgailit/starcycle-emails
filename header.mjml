@@ -1,0 +1,12 @@
+<mjml>
+    <mj-body background-color="black">
+        <mj-section
+            background-url="https://starcycle-staging.herokuapp.com/assets/img/galaxy-background.jpg"
+            background-size="cover"
+            background-repeat="no-repeat">
+            <mj-column padding="20px">
+                <mj-image width="300px" src="https://starcycle-staging.herokuapp.com/assets/img/starcycle-wordmark.png" />
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
