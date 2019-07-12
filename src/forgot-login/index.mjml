@@ -7,7 +7,7 @@
         <mj-section padding="0">
             <mj-column background-color="white" padding-top="20px">
                 <mj-text mj-class="heading">Hey client</mj-text>
-                <mj-text mj-class="subheading">don't wor1ry. we got you.</mj-text>
+                <mj-text mj-class="subheading">don't worry. we got you.</mj-text>
                 <mj-text>Here's your StarCycle account information:</mj-text>
                 <mj-text padding-bottom="0"><b>Username:</b> USERNAME</mj-text>
                 <mj-text><b>Password:</b> PASSWORD</mj-text>

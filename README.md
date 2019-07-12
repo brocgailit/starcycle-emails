@@ -13,6 +13,7 @@ To watch changes:
 `mjml --watch index.mjml -o index.html`
 
 ## View Compiled MJML
+- [Customer Communication](./dist/customer-communication)
 - [Forgot Login](./dist/forgot-login)
 - [Gift Card](./dist/gift-card)
 - [New Registration](./dist/registration)

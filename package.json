@@ -4,10 +4,7 @@
   "description": "Email templates using [MJML](https://mjml.io/download)",
   "main": "index.js",
   "scripts": {
-    "build:forgot": "mjml ./forgot-login/index.mjml -o ./dist/forgot-login.html --config.minify",
-    "build:registration": "mjml ./registration/index.mjml -o ./dist/registration.html --config.minify",
-    "build:gift": "mjml ./gift-card/index.mjml -o ./dist/gift-card.html --config.minify",
-    "build": "npm run build:forgot && npm run build:registration && npm run build:gift",
+    "build": "./build.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
