@@ -1,0 +1,13 @@
+<mjml>
+    <mj-body>
+        <mj-section padding-top="0">
+            <mj-column>
+                <mj-text mj-class="contact-info">
+                    <b style="text-transform:uppercase">{{contact_name}}</b><br>
+                    {{class_location_address}}<br>
+                    {{contact_phone}}
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>

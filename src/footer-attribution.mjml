@@ -1,0 +1,14 @@
+<mjml>
+    <mj-body>
+        <mj-section padding-top="0">
+            <mj-column>
+                <mj-text mj-class="attribution" css-class="attribution">
+                    Copyright &copy; StarCycle Franchise, LLC.
+                    All rights Reserved.<br>
+                    <!-- You received this email because you opted in on our website.
+                    <a href="https://www.starcycleride.com">unsubscribe</a> -->
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>

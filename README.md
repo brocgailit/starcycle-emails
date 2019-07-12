@@ -30,5 +30,5 @@ For up to date email client share visit: https://www.emailclientmarketshare.com/
 - [customer-communication](./dist/customer-communication)
 - [first-class-check-in](./dist/first-class-check-in)
 - [forgot-login](./dist/forgot-login)
-- [gift-card](./dist/gift-card)
+- [gift-card-notification](./dist/gift-card-notification)
 - [registration](./dist/registration)

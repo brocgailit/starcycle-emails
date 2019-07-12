@@ -23,6 +23,6 @@
                 </mj-text>
             </mj-column>
         </mj-section>
-        <mj-include path="../footer.mjml" />
+        <mj-include path="../studio-footer.mjml" />
     </mj-body>
 </mjml>
