@@ -14,6 +14,7 @@ To watch changes:
 
 ## View Compiled MJML
 - [Customer Communication](./dist/customer-communication)
+- [First Class Check-in](./dist/first-class-check-in)
 - [Forgot Login](./dist/forgot-login)
 - [Gift Card](./dist/gift-card)
 - [New Registration](./dist/registration)
