@@ -25,9 +25,3 @@ Emails <s>may</s> appear different in every email client.
 10. Thunderbird (<1$)
 
 For up to date email client share visit: https://www.emailclientmarketshare.com/
-
-## View Compiled MJML[customer-communication](./dist/customer-communication)
-[first-class-check-in](./dist/first-class-check-in)
-[forgot-login](./dist/forgot-login)
-[gift-card](./dist/gift-card)
-[registration](./dist/registration)
