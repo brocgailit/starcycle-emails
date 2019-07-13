@@ -39,3 +39,4 @@ For up to date email client share visit: https://www.emailclientmarketshare.com/
 - [password-reset](./dist/password-reset)
 - [purchase-confirmation](./dist/purchase-confirmation)
 - [reservation-confirmation](./dist/reservation-confirmation)
+- [reservation-guest-invitation](./dist/reservation-guest-invitation)
