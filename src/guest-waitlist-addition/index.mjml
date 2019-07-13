@@ -1,0 +1,27 @@
+<mjml>
+    <mj-head>
+        <mj-include path="../common-head.mjml" />
+    </mj-head>
+    <mj-body background-color="black">
+        <mj-include path="../header.mjml" />
+        <mj-section padding="0">
+            <mj-column background-color="white" padding-top="20px">
+                <mj-text mj-class="heading">Whoop!</mj-text>
+                <mj-text>
+                    We added your guest onto the waitlist for {{class_session_type}} with {{class_instructors}} at our {{class_location}} location! They should plan being able to attend at {{class_time}} on {{class_day_of_week}}, {{class_month}} {{class_date}} {{class_year}}, in case they're pulled from the waitlist
+                </mj-text>
+                <mj-text>
+                    Fingers crossed we see you soon!
+                </mj-text>
+                <mj-text font-weight="bold" padding-bottom="0">
+                    {{class_site_name}}
+                </mj-text>
+                <mj-text>
+                    {{class_location_address}}
+                </mj-text>
+                <mj-include path="../contact-signature.mjml" />
+            </mj-column>
+        </mj-section>
+        <mj-include path="../footer.mjml" />
+    </mj-body>
+</mjml>

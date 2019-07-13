@@ -32,4 +32,5 @@ For up to date email client share visit: https://www.emailclientmarketshare.com/
 - [forgot-login](./dist/forgot-login)
 - [gift-card-notification](./dist/gift-card-notification)
 - [guest-reservation-confirmation](./dist/guest-reservation-confirmation)
+- [guest-waitlist-addition](./dist/guest-waitlist-addition)
 - [registration](./dist/registration)
