@@ -45,6 +45,9 @@
             />
         </mj-attributes>
         <mj-style>
+            a {
+                color: #672e9b;
+            }
             .letter-space * {
                 letter-spacing: 0.2em !important;
             }
