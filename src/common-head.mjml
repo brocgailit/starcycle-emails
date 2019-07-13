@@ -59,6 +59,9 @@
             .attribution a {
                 color: #666;
             }
+            .mj-link a {
+                color: #d3a039 !important;
+            }
         </mj-style>
     </mj-head>
 </mjml>

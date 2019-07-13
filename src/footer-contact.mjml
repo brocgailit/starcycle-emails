@@ -5,7 +5,7 @@
                 <mj-text color="#eee" padding-top="20px">
                     If you have any additional question, contact us:
                 </mj-text>
-                <mj-text mj-class="contact-info">
+                <mj-text mj-class="contact-info" css-class="mj-link">
                     <b style="text-transform:uppercase">{{contact_name}}</b><br>
                     <a href="mailto:{{contact_email}}">{{contact_email}}</a><br>
                     {{contact_phone}}
