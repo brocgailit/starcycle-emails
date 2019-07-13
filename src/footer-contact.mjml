@@ -2,7 +2,7 @@
     <mj-body>
         <mj-section padding-top="0">
             <mj-column>
-                <mj-text color="#ddd5e5">
+                <mj-text color="#eee" padding-top="20px">
                     If you have any additional question, contact us:
                 </mj-text>
                 <mj-text mj-class="contact-info">
