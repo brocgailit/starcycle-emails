@@ -29,7 +29,6 @@ For up to date email client share visit: https://www.emailclientmarketshare.com/
 ## View Compiled MJML
 - [customer-communication](./dist/customer-communication)
 - [first-class-check-in](./dist/first-class-check-in)
-- [forgot-login](./dist/forgot-login)
 - [gift-card-notification](./dist/gift-card-notification)
 - [guest-reservation-confirmation](./dist/guest-reservation-confirmation)
 - [guest-waitlist-addition](./dist/guest-waitlist-addition)
@@ -37,3 +36,4 @@ For up to date email client share visit: https://www.emailclientmarketshare.com/
 - [guest-waitlist-upgrade](./dist/guest-waitlist-upgrade)
 - [membership-autopay-failure](./dist/membership-autopay-failure)
 - [new-registration](./dist/new-registration)
+- [password-reset](./dist/password-reset)

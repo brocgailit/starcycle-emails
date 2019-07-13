@@ -1,0 +1,28 @@
+<mjml>
+    <mj-head>
+        <mj-include path="../common-head.mjml" />
+    </mj-head>
+    <mj-body background-color="black">
+        <mj-include path="../header.mjml" />
+        <mj-section padding="0">
+            <mj-column background-color="white" padding-top="20px">
+                <mj-text mj-class="heading">Hi {{user_name}},</mj-text>
+                <mj-text>
+                    To reset your password, use this link:
+                </mj-text>
+                <mj-text>
+                    <a href="{{ password_reset_link }}">Reset Password</a>
+                </mj-text>
+                <mj-text>
+                    If you’re still having trouble accessing your account, feel free to call us, email us or let us know the next time you’re in the studio and we’ll get to the bottom of it.
+                </mj-text>
+                <mj-text>
+                    If you did not request this, please ignore this email or contact us at
+                    <a href="mailto:{{ contact_email }}">{{ contact_email }}</a>.
+                </mj-text>
+                <mj-include path="../contact-signature.mjml" />
+            </mj-column>
+        </mj-section>
+        <mj-include path="../footer.mjml" />
+    </mj-body>
+</mjml>
