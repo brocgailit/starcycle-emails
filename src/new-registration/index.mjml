@@ -42,25 +42,15 @@
         </mj-section>
         <mj-section padding="0">
             <mj-column background-color="white" padding-top="20px">
-                <mj-text mj-class="heading">Welcome client</mj-text>
-                <mj-text mj-class="subheading">we can't wait to ride with you!</mj-text>
+                <mj-text mj-class="heading">Hi {{ user_first_name }},</mj-text>
+                <mj-text mj-class="subheading">Can't wait to ride with you!</mj-text>
                 <mj-text>
-                    Congrats on taking the first step towards a stronger and more empowered you!
-                    Be sure to arrive to your first class 15 minutes early so we can get you
-                    all set up in the studio and properly fitted on your bike.
+                    Congrats on taking the first step towards a stronger and more empowered you! Make sure to arrive to your first class 15 minutes early so we can get you all set up in the studio and properly fitted on your bike.
                 </mj-text>
-                <mj-text padding-bottom="0"><b>Below is all of your StarCycle account info:</b></mj-text>
-                <mj-text padding-bottom="0">Username: CLIENTEMAIL</mj-text>
-                <mj-text>Password: xxxxxxx789</mj-text>
                 <mj-text padding="30px 50px" line-height="30px">
                     <i>Please let us know if you have any questions prior to your first class!</i>
                 </mj-text>
-                <mj-text font-weight="bold" padding-bottom="0">
-                    StarCycle STUDIO_NAME
-                </mj-text>
-                <mj-text font-size="11px">
-                    Phone: STUDIO_PHONE
-                </mj-text>
+                <mj-include path="../contact-signature.mjml" />
                 <mj-button
                     href="https://www.starcycleride.com"
                     background-color="#663399"
