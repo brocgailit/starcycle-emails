@@ -1,0 +1,26 @@
+<mjml>
+    <mj-head>
+        <mj-include path="../common-head.mjml" />
+    </mj-head>
+    <mj-body background-color="black">
+        <mj-include path="../header.mjml" />
+        <mj-section padding="0">
+            <mj-column background-color="white" padding="20px">
+                <mj-text mj-class="heading">
+                    Fingers crossed you get in!
+                </mj-text>
+                <mj-text>
+                    You are officially on the waitlist for {{class_session_type}} with {{class_instructors}} at {{class_time}} on {{class_day_of_week}}, {{class_month}} {{class_date}}, {{class_year}}!
+                </mj-text>
+                <mj-text>
+                    If a spot becomes available, you will be notified via email.
+                </mj-text>
+                <mj-text>
+                    If you did not intend to join the waitlist, please email us at <a href="mailto:{{contact_email}}">{{contact_email}}</a>.
+                </mj-text>
+                <mj-include path="../contact-signature.mjml" />
+            </mj-column>
+        </mj-section>
+        <mj-include path="../footer.mjml" />
+    </mj-body>
+</mjml>
