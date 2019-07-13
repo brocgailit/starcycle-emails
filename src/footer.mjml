@@ -1,6 +1,7 @@
 <mjml>
     <mj-body>
         <mj-include path="./footer-social.mjml" />
+        <mj-include path="./footer-contact.mjml" />
         <mj-include path="./footer-attribution.mjml" />
     </mj-body>
 </mjml>
