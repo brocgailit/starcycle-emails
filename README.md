@@ -31,4 +31,5 @@ For up to date email client share visit: https://www.emailclientmarketshare.com/
 - [first-class-check-in](./dist/first-class-check-in)
 - [forgot-login](./dist/forgot-login)
 - [gift-card-notification](./dist/gift-card-notification)
+- [guest-reservation-confirmation](./dist/guest-reservation-confirmation)
 - [registration](./dist/registration)
