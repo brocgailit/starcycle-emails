@@ -1,0 +1,26 @@
+<mjml>
+    <mj-head>
+        <mj-include path="../common-head.mjml" />
+    </mj-head>
+    <mj-body background-color="black">
+        <mj-include path="../header.mjml" />
+        <mj-section padding="0">
+            <mj-column background-color="white" padding-top="20px">
+                <mj-text mj-class="heading">Dear {{user_name}},</mj-text>
+                <mj-text>
+                    We know that getting to the studio is the hardest part, so we wanted to make sure that you know that your autopayment for {{membership_name}} membership has failed.
+                </mj-text>
+                <mj-text>
+                    To keep you star-ready, please update your credit card information on <a href="https://www.starcycleride.com/">our web site</a>.
+                    You can also contact the studio {{#if contact_phone}}by phone at {{ contact_phone }}{{#if contact_email}} or 
+                    email at <a href="mailto:{{contact_email}}">{{ contact_email }}</a>{{/if}}{{elseif contact_email}}by email at {{ contact_email }}{{/if}} to get you squared away.
+                </mj-text>
+                <mj-text>
+                    We look forward to sweating with you again soon,
+                </mj-text>
+                <mj-include path="../contact-signature.mjml" />
+            </mj-column>
+        </mj-section>
+        <mj-include path="../footer.mjml" />
+    </mj-body>
+</mjml>

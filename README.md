@@ -35,4 +35,5 @@ For up to date email client share visit: https://www.emailclientmarketshare.com/
 - [guest-waitlist-addition](./dist/guest-waitlist-addition)
 - [guest-waitlist-invitation-upgrade](./dist/guest-waitlist-invitation-upgrade)
 - [guest-waitlist-upgrade](./dist/guest-waitlist-upgrade)
+- [membership-autopay-failure](./dist/membership-autopay-failure)
 - [registration](./dist/registration)
