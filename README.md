@@ -42,3 +42,4 @@ For up to date email client share visit: https://www.emailclientmarketshare.com/
 - [reservation-guest-invitation](./dist/reservation-guest-invitation)
 - [waitlist-addon](./dist/waitlist-addon)
 - [waitlist-guest-invitation](./dist/waitlist-guest-invitation)
+- [waitlist-upgrade](./dist/waitlist-upgrade)
