@@ -1,0 +1,40 @@
+<mjml>
+    <mj-head>
+        <mj-include path="../common-head.mjml" />
+    </mj-head>
+    <mj-body background-color="black">
+        <mj-include path="../header.mjml" />
+        <mj-section padding="0">
+            <mj-column background-color="white" padding-top="20px">
+                <mj-text mj-class="heading">
+                    Friends are the BEST!
+                </mj-text>
+                <mj-text>
+                    {{booked_on_behalf_of_user_full_name}} has added you to the waitlist for a StarCycle class. Here are the details:
+                </mj-text>
+                <mj-text>
+                    <ul style="text-align:left">
+                        <li style="padding-bottom: 1em;">
+                            You're on the waitlist to ride at {{class_time}} on {{class_day_of_week}}, {{class_month}} {{class_date}} {{class_year}}.
+                        </li>
+                        <li>
+                            You’ll be riding with {{class_instructors}} at our {{ class_location }} location!
+                        </li>
+                    </ul>
+                </mj-text>
+                <mj-text>
+                    <b>Any questions?</b> Let us know at <a href="mailto:{{contact_email}}">{{contact_email}}</a>. We will send you an email if you get added to class, so keep your eyes peeled! Can't wait to ride with you!
+                </mj-text>
+                <mj-text>
+                    <b>{{class_site_name}}</b><br>
+                    {{class_location_address}}
+                </mj-text>
+                <mj-include path="../contact-signature.mjml" />
+                <mj-text padding="50px" padding-top="15px">
+                    <b>Don't have a StarCycle account?</b>  You can create one here: <a href="https://www.starcycleride.com/">https://www.starcycleride.com/</a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-include path="../footer.mjml" />
+    </mj-body>
+</mjml>
