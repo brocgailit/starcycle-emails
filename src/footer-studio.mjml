@@ -2,9 +2,12 @@
     <mj-body>
         <mj-section padding-top="0">
             <mj-column>
+                <mj-text>
+                    If you have any additional question, contact us:
+                </mj-text>
                 <mj-text mj-class="contact-info">
                     <b style="text-transform:uppercase">{{contact_name}}</b><br>
-                    {{class_location_address}}<br>
+                    <a href="mailto:{{contact_email}}">{{contact_email}}</a><br>
                     {{contact_phone}}
                 </mj-text>
             </mj-column>

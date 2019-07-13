@@ -3,6 +3,7 @@
         <mj-section padding-bottom="0">
             <mj-column>
                 <mj-social icon-padding="5px" icon-size="24px" mode="horizontal" >
+                    <mj-social-element name="web" href="https://www.facebook.com/starcycleride" mj-class="social-icon" />
                     <mj-social-element name="facebook" href="https://www.facebook.com/starcycleride" mj-class="social-icon" />
                     <mj-social-element name="twitter" href="https://twitter.com/starcycleride" mj-class="social-icon" />
                     <mj-social-element name="instagram" href="https://www.instagram.com/starcycleride" mj-class="social-icon" />
