@@ -1,0 +1,35 @@
+<mjml>
+    <mj-head>
+        <mj-include path="../common-head.mjml" />
+    </mj-head>
+    <mj-body background-color="black">
+        <mj-include path="../header.mjml" />
+        <mj-section
+            background-url="https://starcycle-staging.herokuapp.com/assets/img/gift-background.jpg"
+            background-size="cover"
+            background-repeat="no-repeat">
+            <mj-column>
+                <mj-text
+                    mj-class="heading"
+                    color="white"
+                    font-size="40px"
+                    padding-top="150px"
+                    padding-bottom="100px"
+                >
+                    Lucky You!
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="0">
+            <mj-column background-color="white" padding-top="20px">
+                <mj-text mj-class="heading">Well done, {{ recipient_name }}!</mj-text>
+                <mj-text mj-class="subheading">Life's more fun with friends!</mj-text>
+                <mj-text>
+                    Your guest is reserved for {{class_session_type}} with {{class_instructors}} at our {{class_location}} location! We'll see them at {{class_time}} on {{class_day_of_week}}, {{class_month}} {{class_date}}, {{class_year}}.
+                </mj-text>
+                <mj-include path="../contact-signature.mjml" />
+            </mj-column>
+        </mj-section>
+        <mj-include path="../footer.mjml" />
+    </mj-body>
+</mjml>

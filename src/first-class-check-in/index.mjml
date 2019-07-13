@@ -18,9 +18,6 @@
                 <mj-text>
                     We look forward to riding with you again very soon!
                 </mj-text>
-                <mj-text mj-class="subheading" padding-top="20px" padding-bottom="20px">
-                    The {{contact_name}} Team
-                </mj-text>
             </mj-column>
         </mj-section>
         <mj-include path="../footer.mjml" />

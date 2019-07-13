@@ -1,0 +1,7 @@
+<mjml>
+    <mj-body>
+        <mj-text mj-class="subheading" padding-top="20px" padding-bottom="20px">
+            The {{contact_name}} Team
+        </mj-text>
+    </mj-body>
+</mjml>
