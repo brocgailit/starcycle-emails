@@ -1,0 +1,92 @@
+<mjml>
+    <mj-head>
+        <mj-include path="../common-head.mjml" />
+    </mj-head>
+    <mj-body background-color="black">
+        <mj-include path="../header.mjml" />
+        <mj-section padding="0">
+            <mj-column background-color="white" padding-top="20px">
+                <mj-text mj-class="heading">{{tenant_name}}</mj-text>
+                <mj-text mj-class="subheading">
+                    {{user_full_name}}
+                </mj-text>
+                <mj-text padding="4px">
+                    {{date_placed}}
+                </mj-text>
+                <mj-text padding="4px">
+                    Order #{{order_number}}
+                </mj-text>
+                <mj-text padding="4px">
+                    {{#if contains_refund}}Refund Receipt{{else}}Sales Receipt{{/if}}
+                </mj-text>
+                <mj-table padding-top="50px" padding-bottom="50px">
+                    <tr style="border-bottom:1px solid #ecedee;text-align:left;padding:15px 0;">
+                        <th style="padding: 0 15px 0 0; font-size: 14px; text-transform:uppercase">Item</th>
+                        <th style="padding: 0 0 0 15px; text-align:right; font-size: 14px; text-transform:uppercase">Price</th>
+                    </tr>
+                    {{#each order_lines}}
+                    <tr>
+                        <td style="padding: 0 15px 0 0;">{{this.item}}{{#if this.sub_title}}: {{this.sub_title}}{{/if}}</td>
+                        <td style="padding: 0 0 0 15px; text-align:right;">${{this.price}}</td>
+                    </tr>
+                    {{ /each }}
+                    <tr>
+                        <th style="padding: 0 15px 0 0; text-align:left;">Subtotal</th>
+                        <td style="padding: 0 0 0 15px; text-align:right;">${{subtotal}}</td>
+                    </tr>
+                    <tr style="border-bottom:1px solid #ecedee;">
+                        <th style="padding: 0 15px 0 0; text-align:left;">Taxes</th>
+                        <td style="padding: 0 0 0 15px; text-align:right;">{{#if tax}}{{tax}}{{else}}$0.00{{/if}}</td>
+                    </tr>
+                    <tr>
+                        <th style="padding: 0 15px 0 0; text-align:left; font-size: 14px; text-transform:uppercase">Total</th>
+                        <td style="padding: 0 0 0 15px; text-align:right;">{{total}}</td>
+                    </tr>
+                    {{#each payment_details}}
+                    <tr>
+                        <th style="padding: 0 15px 0 0; text-align:left;">{{this.label}}</th>
+                        <td style="padding: 0 0 0 15px; text-align:right;">	${{this.amount_allocated}}</td>
+                    </tr>
+                    {{/each}}
+                    {{#if contains_refund}}
+                        <tr style="border-top:1px solid #ecedee;">
+                            <th style="padding: 0 15px 0 0; text-align:left; font-size: 14px; text-transform:uppercase">Refunded</th>
+                            <td style="padding: 0 0 0 15px; text-align:right;">-${{refunded_amount}}</td>
+                        </tr>
+                        {{#if contains_partial_refund}}
+                            {{#each order_lines}}
+                                {{#if is_partially_refunded}}
+                                    <tr>
+                                        <th style="padding: 0 15px 0 0; text-align:left;">{{this.item}}</th>
+                                        <td style="padding: 0 0 0 15px; text-align:right;">	${{this.amount_refunded}}</td>
+                                    </tr>
+                                {{/if}}
+                            {{/each}}
+                        {{/if}}
+                        <tr style="border-top:1px solid #ecedee;">
+                            <th style="padding: 0 15px 0 0; text-align:left; font-size: 14px; text-transform:uppercase">Refunded To</th>
+                            <td style="padding: 0 0 0 15px; text-align:right;">	${{this.amount_refunded}}</td>
+                        </tr>
+                        {{#each payment_refunds}}
+                            <tr>
+                                <th style="padding: 0 15px 0 0; text-align:left;">{{this.label}}</th>
+                                <td style="padding: 0 0 0 15px; text-align:right;">	${{this.amount_refunded}}</td>
+                            </tr>
+                        {{/each}}
+                        <tr style="border-top:1px solid #ecedee;">
+                            <th style="padding: 0 15px 0 0; text-align:left; font-size: 14px; text-transform:uppercase">New Total</th>
+                            <td style="padding: 0 0 0 15px; text-align:right;">	${{total_after_refund}}</td>
+                        </tr>
+                    {{/if}}
+                </mj-table>
+                <mj-text padding="0" font-weight="bold" font-size="12px">
+                    {{tenant_name}} {{partner_name}}
+                </mj-text>
+                <mj-text padding-bottom="50px">
+                    {{partner_address}}
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-include path="../footer.mjml" />
+    </mj-body>
+</mjml>

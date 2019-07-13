@@ -37,3 +37,4 @@ For up to date email client share visit: https://www.emailclientmarketshare.com/
 - [membership-autopay-failure](./dist/membership-autopay-failure)
 - [new-registration](./dist/new-registration)
 - [password-reset](./dist/password-reset)
+- [purchase-confirmation](./dist/purchase-confirmation)
