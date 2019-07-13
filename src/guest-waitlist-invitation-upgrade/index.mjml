@@ -1,0 +1,21 @@
+<mjml>
+    <mj-head>
+        <mj-include path="../common-head.mjml" />
+    </mj-head>
+    <mj-body background-color="black">
+        <mj-include path="../header.mjml" />
+        <mj-section padding="0">
+            <mj-column background-color="white" padding-top="20px">
+                <mj-text mj-class="heading">⭐You're in!⭐</mj-text>
+                <mj-text>
+                    You've been added to class on {{class_month}}{{class_date}} for {{class_session_type}} at {{class_time}} with {{class_instructors}} at our {{class_location}} location!
+                </mj-text>
+                <mj-text>
+                    Can't wait to ride with you!
+                </mj-text>
+                <mj-include path="../contact-signature.mjml" />
+            </mj-column>
+        </mj-section>
+        <mj-include path="../footer.mjml" />
+    </mj-body>
+</mjml>

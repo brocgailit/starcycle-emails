@@ -33,4 +33,5 @@ For up to date email client share visit: https://www.emailclientmarketshare.com/
 - [gift-card-notification](./dist/gift-card-notification)
 - [guest-reservation-confirmation](./dist/guest-reservation-confirmation)
 - [guest-waitlist-addition](./dist/guest-waitlist-addition)
+- [guest-waitlist-invitation-upgrade](./dist/guest-waitlist-invitation-upgrade)
 - [registration](./dist/registration)
