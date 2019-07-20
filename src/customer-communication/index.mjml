@@ -5,7 +5,7 @@
     <mj-body background-color="black">
         <mj-include path="../header.mjml" />
         <mj-section padding="0">
-            <mj-column background-color="white" padding="20px">
+            <mj-column background-color="white" padding="25px">
                 <!-- <mj-text mj-class="heading">Hey client</mj-text>
                 <mj-text mj-class="subheading">don't worry. we got you.</mj-text> -->
                 <mj-text>{{content}}</mj-text>

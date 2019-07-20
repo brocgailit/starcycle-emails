@@ -6,7 +6,7 @@
         <mj-include path="../header.mjml" />
         <mj-include path="../banner-guest.mjml" />
         <mj-section padding="0">
-            <mj-column background-color="white" padding="20px">
+            <mj-column background-color="white" padding="25px">
                 <mj-text mj-class="heading">
                     Fingers crossed you get in!
                 </mj-text>
