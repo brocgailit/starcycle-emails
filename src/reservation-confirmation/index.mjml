@@ -4,6 +4,7 @@
     </mj-head>
     <mj-body background-color="black">
         <mj-include path="../header.mjml" />
+        <mj-include path="../banner-brand.mjml" />
         <mj-section padding="0">
             <mj-column background-color="white" padding-top="20px">
                 <mj-text mj-class="heading">Dear {{user_name}},</mj-text>

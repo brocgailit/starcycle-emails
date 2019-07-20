@@ -4,42 +4,7 @@
     </mj-head>
     <mj-body background-color="black">
         <mj-include path="../header.mjml" />
-        <mj-section
-            background-url="https://starcycle-staging.herokuapp.com/assets/img/registration-background.jpg"
-            background-size="cover"
-            background-repeat="no-repeat">
-            <mj-column>
-                <mj-text
-                    align="right"
-                    mj-class="heading"
-                    color="white"
-                    font-size="30px"
-                    padding-bottom="0"
-                    padding-top="150px"
-                >
-                    Clip In!
-                </mj-text>
-                <mj-text
-                    align="right"
-                    mj-class="heading"
-                    color="white"
-                    font-size="30px"
-                    padding-bottom="5px"
-                    padding-top="5px"
-                >
-                    Check Out
-                </mj-text>
-                <mj-text
-                    align="right"
-                    mj-class="heading"
-                    color="white"
-                    font-size="44px"
-                    padding-top="0"
-                >
-                    Let's Ride
-                </mj-text>
-            </mj-column>
-        </mj-section>
+        <mj-include path="../banner-welcome.mjml" />
         <mj-section padding="0">
             <mj-column background-color="white" padding-top="20px">
                 <mj-text mj-class="heading">Hi {{ user_first_name }},</mj-text>
