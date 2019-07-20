@@ -8,6 +8,7 @@
                 name="heading"
                 font-family="Oswald"
                 font-size="30px"
+                line-height="35px"
                 font-weight="bold"
                 text-transform="uppercase"
                 letter-spacing="0.075em"
