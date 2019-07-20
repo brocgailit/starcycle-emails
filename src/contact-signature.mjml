@@ -1,6 +1,6 @@
 <mjml>
     <mj-body>
-        <mj-text mj-class="subheading" padding-top="25px" padding-left="25px" padding-right="25px" padding-bottom="20px">
+        <mj-text mj-class="subheading" padding-top="25px" padding-bottom="20px">
             The {{contact_name}} Team
         </mj-text>
     </mj-body>

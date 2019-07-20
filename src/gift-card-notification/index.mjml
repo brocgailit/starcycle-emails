@@ -6,7 +6,7 @@
         <mj-include path="../header.mjml" />
         <mj-include path="../banner-gift.mjml" />
         <mj-section padding="0">
-            <mj-column background-color="white" padding-top="25px" padding-left="25px" padding-right="25px">
+            <mj-column background-color="white" padding-top="25px">
                 <mj-text mj-class="heading">Hi {{ recipient_name }}</mj-text>
                 <mj-text mj-class="subheading">Thank your lucky stars!</mj-text>
                 <mj-text>You have received the gift of sweat, is there anything better? Your gift card contains a value of {{ gift_card_value }}{{#if custom_message}} with a special message just for you:</mj-text>

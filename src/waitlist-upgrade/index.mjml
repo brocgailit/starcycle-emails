@@ -6,7 +6,7 @@
         <mj-include path="../header.mjml" />
         <mj-include path="../banner-off_waitlist.mjml" />
         <mj-section padding="0">
-            <mj-column background-color="white" padding-top="25px" padding-left="25px" padding-right="25px">
+            <mj-column background-color="white" padding-top="25px">
                 <mj-text mj-class="heading">⭐You're in!⭐</mj-text>
                 <mj-text>
                     We will see you on {{class_month}} {{class_date}}, {{class_year}} for {{class_session_type}} at {{class_time}} with {{class_instructors}}!
