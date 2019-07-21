@@ -7,7 +7,7 @@
         <mj-include path="../banner-guest.mjml" />
         <mj-section padding="0">
             <mj-column background-color="white" padding-top="25px">
-                <mj-text mj-class="heading">Whoop!</mj-text>
+                <mj-text mj-class="heading">YASSSS!</mj-text>
                 <mj-text>
                     We added your guest onto the waitlist for {{class_session_type}} with {{class_instructors}} at our {{class_location}} location! They should plan being able to attend at {{class_time}} on {{class_day_of_week}}, {{class_month}} {{class_date}} {{class_year}}, in case they're pulled from the waitlist
                 </mj-text>
