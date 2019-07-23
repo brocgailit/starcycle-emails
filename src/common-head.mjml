@@ -20,6 +20,7 @@
                 font-size="20px"
                 padding-top="0"
                 padding-bottom="30px"
+                text-transform="lowercase"
                 color="#d3a039"
             />
             <mj-class
