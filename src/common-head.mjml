@@ -1,8 +1,8 @@
 <mjml>
     <mj-head>
-        <mj-font name="Oswald" href="https://fonts.googleapis.com/css?family=Oswald&display=swap" />
-        <mj-font name="Montserrat" href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" />
-        <mj-font name="La Belle Aurore" href="https://fonts.googleapis.com/css?family=La+Belle+Aurore&display=swap" />
+        <mj-font name="Oswald" href="https://fonts.googleapis.com/css?family=Oswald" />
+        <mj-font name="Montserrat" href="https://fonts.googleapis.com/css?family=Montserrat:400,700" />
+        <mj-font name="Freeland" href="https://starcycle-staging.herokuapp.com/assets/fonts/freeland/font.css" />
         <mj-attributes>
             <mj-text padding-left="32px" padding-right="32px" />
             <mj-class
@@ -16,7 +16,7 @@
             />
             <mj-class
                 name="subheading"
-                font-family="La Belle Aurore"
+                font-family="Freeland"
                 font-size="20px"
                 padding-top="0"
                 padding-bottom="30px"
