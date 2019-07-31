@@ -5,16 +5,12 @@
             background-size="cover"
             background-repeat="no-repeat">
             <mj-column>
-                <mj-text
-                    mj-class="heading"
-                    color="white"
-                    font-size="40px"
-                    line-height="45px"
+                <mj-image
+                    width="250px"
+                    src="https://res.cloudinary.com/heavy-craft/image/upload/v1563653360/StarCycle/yasssss.png"
                     padding-top="125px"
                     padding-bottom="125px"
                 >
-                    Yasssss!
-                </mj-text>
             </mj-column>
         </mj-section>
     </mj-body>
