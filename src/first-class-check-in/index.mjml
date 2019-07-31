@@ -8,7 +8,7 @@
         <mj-section padding="0">
             <mj-column background-color="white" padding="25px">
                 <mj-text mj-class="heading">
-                    Oh Hey, {{client}},
+                    Oh Hey, {{user_first_name}},
                 </mj-text>
                 <mj-text>
                     Way to rock your first ride at StarCycle! We loved every second of sweating and smiling with you.
