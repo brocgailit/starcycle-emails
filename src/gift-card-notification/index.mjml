@@ -14,6 +14,9 @@
                 <mj-text>
                     To redeem your gift card, log onto <a href="https://www.starcycleride.com/">https://www.starcycleride.com/</a> and enter the redemption code on your account page.
                 </mj-text>
+                <mj-text font-size="15px">
+                    <b>REDEMPTION CODE: </b> {{ redemption_code }}
+                </mj-text>
                 <mj-text font-size="11px">
                     Let's ride!
                 </mj-text>
