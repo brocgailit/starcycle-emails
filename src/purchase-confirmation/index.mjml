@@ -29,7 +29,7 @@
                         <td style="padding: 0 15px 0 0;">{{this.item}}{{#if this.sub_title}}: {{this.sub_title}}{{/if}}</td>
                         <td style="padding: 0 0 0 15px; text-align:right;">${{this.price}}</td>
                     </tr>
-                    {{ /each }}
+                    {{/each}}
                     <tr>
                         <th style="padding: 0 15px 0 0; text-align:left;">Subtotal</th>
                         <td style="padding: 0 0 0 15px; text-align:right;">${{subtotal}}</td>
