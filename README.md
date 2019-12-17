@@ -38,6 +38,7 @@ For up to date email client share visit: https://www.emailclientmarketshare.com/
 - [new-registration](./dist/new-registration)
 - [password-reset](./dist/password-reset)
 - [purchase-confirmation](./dist/purchase-confirmation)
+- [reservation-cancellation](./dist/reservation-cancellation)
 - [reservation-confirmation](./dist/reservation-confirmation)
 - [reservation-guest-invitation](./dist/reservation-guest-invitation)
 - [waitlist-addon](./dist/waitlist-addon)
