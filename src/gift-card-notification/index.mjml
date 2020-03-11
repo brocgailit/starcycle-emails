@@ -11,6 +11,7 @@
                 <mj-text mj-class="subheading">Thank your lucky stars!</mj-text>
                 <mj-text>You have received the gift of sweat, is there anything better? Your gift card contains a value of {{ gift_card_value }}{{#if custom_message}} with a special message just for you:</mj-text>
                 <mj-text><b>{{ custom_message }}{{else}}.{{/if}}</b></mj-text>
+                <mj-text>From: {{ sender_full_name }}</mj-text>
                 <mj-text>
                     To redeem your gift card, log onto <a href="https://www.starcycleride.com/">https://www.starcycleride.com/</a> and enter the redemption code on your account page.
                 </mj-text>
