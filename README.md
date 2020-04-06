@@ -40,6 +40,7 @@ For up to date email client share visit: https://www.emailclientmarketshare.com/
 - [purchase-confirmation](./dist/purchase-confirmation)
 - [reservation-cancellation](./dist/reservation-cancellation)
 - [reservation-confirmation](./dist/reservation-confirmation)
+- [reservation-confirmation-online](./dist/reservation-confirmation-online)
 - [reservation-guest-invitation](./dist/reservation-guest-invitation)
 - [waitlist-addon](./dist/waitlist-addon)
 - [waitlist-guest-invitation](./dist/waitlist-guest-invitation)

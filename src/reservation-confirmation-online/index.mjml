@@ -1,0 +1,29 @@
+<mjml>
+    <mj-head>
+        <mj-include path="../common-head.mjml" />
+    </mj-head>
+    <mj-body background-color="black">
+        <mj-include path="../banner-online.mjml" />
+        <mj-section padding="0">
+            <mj-column background-color="white" padding-top="25px">
+                <mj-text mj-class="heading">Dear {{user_first_name}},</mj-text>
+                <mj-text>
+                    Your spot is reserved for {{ class_session_type }} with {{class_instructors}}! We will see you at {{class_time}} on {{class_day_of_week}}, {{class_month}} {{class_date}}, {{class_year}}.
+                </mj-text>
+                <mj-text>
+                    <strong>ACCESS TO YOUR CLASS:</strong> 20 minutes before class you will receive an email with the link to our online streaming class. NEVER logged into a live class before? We got you, and made a video showing you the steps to access your sweaty future!
+                    <br>
+                    <a href="https://youtu.be/hRLUYDDkAd8">CLICK HERE</a> for your video tutorial.
+                </mj-text>
+                <mj-text>
+                    If you did not make this reservation, please contact us immediately at <a href="mailto:{{contact_email}}">{{contact_email}}</a>.
+                </mj-text>
+                <mj-text>
+                    We can’t wait to ride with you soon!
+                </mj-text>
+                <mj-include path="../contact-signature.mjml" />
+            </mj-column>
+        </mj-section>
+        <mj-include path="../footer.mjml" />
+    </mj-body>
+</mjml>

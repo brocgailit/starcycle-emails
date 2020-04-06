@@ -1,0 +1,18 @@
+<mjml>
+    <mj-body>
+        <mj-section
+            background-url="https://res.cloudinary.com/heavy-craft/image/upload/v1586195355/StarCycle/SC_Mandrill_Banners_LiveOnline.png"
+            background-size="cover"
+            background-repeat="no-repeat"
+            text-align="right"
+        >
+            <mj-column>
+                <mj-image
+                    width="250px"
+                    src="https://res.cloudinary.com/heavy-craft/image/upload/v1586195277/StarCycle/lets-ride-online.png"
+                    padding-top="150px"
+                >
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
